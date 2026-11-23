@@ -36,6 +36,8 @@ export function Navbar() {
             <img
               src="/images/profile.jpg"
               alt={personal.name}
+              width={36}
+              height={36}
               className="h-9 w-9 rounded-full object-cover object-top border border-sky-400/40 shadow-sm"
             />
             <span className="absolute bottom-0 right-0 h-2.5 w-2.5 rounded-full bg-emerald-500 ring-2 ring-white dark:ring-[#0F172A]" />

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { portfolioData } from "@/data/portfolio";
 import {
@@ -154,12 +153,12 @@ export function Hero() {
 
                 {/* Portrait Display Area */}
                 <div className="group relative aspect-[4/4.5] w-full overflow-hidden rounded-2xl border border-sky-500/20 bg-slate-900 shadow-inner">
-                  <Image
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src={personal.avatarUrl}
                     alt={personal.name}
-                    fill
-                    priority
-                    sizes="(max-width: 768px) 100vw, 384px"
+                    width={400}
+                    height={440}
                     className="object-cover object-top w-full h-full transition-transform duration-500 group-hover:scale-105"
                   />
 
