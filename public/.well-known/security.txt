@@ -1,0 +1,8 @@
+Contact: mailto:akashyadav22052005@gmail.com
+Expires: 2027-12-31T23:59:59.000Z
+Encryption: https://github.com/Akashyadav1234-hub
+Preferred-Languages: en
+Canonical: https://github.com/Akashyadav1234-hub/.well-known/security.txt
+Policy: https://github.com/Akashyadav1234-hub
+Acknowledgments: https://hackerone.com/akashy911
+Hiring: mailto:akashyadav22052005@gmail.com
